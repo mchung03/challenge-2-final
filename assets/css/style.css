@@ -1,0 +1,53 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(163, 216, 247);
+    padding-left: 6px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    padding-left: 0;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-right: 10px;
+    padding-right: 10px;
+    background-color: beige;
+    border: 1px solid navy;
+    width: 20%;
+    position: absolute;
+    right: 0;
+}
+
+.nav a,
+h3 {
+    background-color: beige;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.description {
+    width: 40%;
+}
+
+.hero {
+    margin: 20px 20px 0 0;
+    overflow: auto;
+}
+
+.hero__image {
+    display: block;
+    float: right;
+}
+
+.hero__text {
+    display: inline-block;
+    width: 46%;
+}
