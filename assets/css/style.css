@@ -31,6 +31,7 @@ h3 {
 
 h2 {
     font-size: 30px;
+    margin-top: 40px;
 }
 
 .description {
@@ -50,4 +51,25 @@ h2 {
 .hero__text {
     display: inline-block;
     width: 46%;
+}
+
+.footer {
+    border: 1px solid black;
+}
+
+.footer h4 {
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 1px solid grey;
+    padding-right: 10px;
+}
+
+.footer p { 
+    text-align: right;
+    font-weight: bold;
+    margin-right: 20%;
+    /* gap: 30px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 20px; Use this code for mobile view */
 }
