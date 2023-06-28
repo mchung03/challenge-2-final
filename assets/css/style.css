@@ -6,8 +6,8 @@
 
 h1 {
     font-size: 40px;
-    margin-bottom: 10px;
     padding-left: 0;
+    border: 3px dashed black;
 }
 
 .nav {
@@ -32,6 +32,8 @@ h3 {
 h2 {
     font-size: 30px;
     margin-top: 40px;
+    color:rgb(35, 21, 100);
+    border: 4px solid black;
 }
 
 .description {
@@ -51,10 +53,60 @@ h2 {
 .hero__text {
     display: inline-block;
     width: 46%;
+    margin-left: 15%;
+}
+
+.main {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.main img {
+    position: absolute;
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+}
+
+.main h4 {
+    position: absolute;
+    left: 28%;
+    text-align: center;
+    border: 2px solid black;
+    padding: 8px;
+    background-color: beige;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    margin-left: 23%;
+}
+
+.placeholder {
+    flex: 1;
+    height: 100px;
+    margin-right: 50px;
+}
+
+.placeholder h4 {
+    position: absolute;
+    top: 120%;
+    text-align: center;
+    border: 2px solid black;
+    padding: 8px;
+    background-color: beige;
 }
 
 .footer {
-    border: 1px solid black;
+    margin-top: 300px;
 }
 
 .footer h4 {
@@ -68,8 +120,4 @@ h2 {
     text-align: right;
     font-weight: bold;
     margin-right: 20%;
-    /* gap: 30px;
-    font-weight: bold;
-    text-align: right;
-    margin-right: 20px; Use this code for mobile view */
 }
