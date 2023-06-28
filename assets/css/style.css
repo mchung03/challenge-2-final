@@ -87,38 +87,32 @@ h2 {
 
 .row {
     display: flex;
+    flex: 1;
+    flex-wrap: wrap;
     margin-left: 23%;
 }
 
 .placeholder {
-    flex: 1;
-    height: 100px;
+    flex-basis: auto;
     margin-right: 50px;
 }
 
-/* .place img {
-    position: absolute;
-    width: 50%;
-    height: auto;
-    margin-left: 25%;
-} */
-
 .placeholder img {
-    position: relative;
     height: auto;
 }
 
 .placeholder h4 {
-    position: absolute;
+    position: relative;
     top: 120%;
     text-align: center;
     border: 2px solid black;
     padding: 8px;
     background-color: beige;
+    flex-wrap: wrap;
 }
 
 .footer {
-    margin-top: 300px;
+    margin-top: 20px;
 }
 
 .footer h4 {

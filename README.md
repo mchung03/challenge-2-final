@@ -10,13 +10,19 @@ What are the steps required to install your project? Provide a step-by-step desc
 
 ## Usage
 
-To use this website, click the navigation bar to 
+To use this website, click an option on the navigation bar and it will drop down to the relevant section.
+
+Click on an image to view the project website. (The placeholder images will take you to google.com for now because we haven't made many projects yet)
+
+Clicking on the phone number will dial the number. Clicking on the email sends you to a link that allows you to send an email right away. Clicking on the GitHub link directs you to my GitHub repositories.
 
 ## Credits
 
-ChatGPT:https://chat.openai.com/share/26b827df-3e08-4565-93b9-c763ca955459
+ChatGPT:https://chat.openai.com/share/26b827df-3e08-4565-93b9-c763ca955459 (Used as reference, did not copy code line by line)
 
 Jerromy (Learning Assistant)
+
+John (Learning Assistant)
 
 Jili Jiang (Tutor)
 
